@@ -1,0 +1,37 @@
+PowerBand HTML Template Credits
+
+Fonts
+- Inter by Rasmus Andersson (SIL Open Font License 1.1)
+  https://fonts.google.com/specimen/Inter
+
+Icons
+- Solar Icons (MIT License)
+  https://github.com/480-Design/Solar-Icons
+- Remix Icon (Apache License 2.0)
+  https://github.com/Remix-Design/RemixIcon
+- Material Design Icons (Apache License 2.0)
+  https://github.com/Templarian/MaterialDesign
+- Served via Iconify API to build local icons.svg
+  https://iconify.design
+
+CSS Framework
+- Tailwind CSS Play CDN script (local snapshot, MIT License)
+  https://tailwindcss.com
+
+Images
+- Unsplash photos (free to use with attribution appreciated)
+  https://unsplash.com
+  Specific photos used:
+  https://images.unsplash.com/photo-1517836357463-d25dfeac3438
+  https://images.unsplash.com/photo-1598289431512-b97b0917affc
+  https://images.unsplash.com/photo-1620188467120-5042ed1eb5da
+  https://images.unsplash.com/photo-1605296867304-46d5465a13f1
+  https://images.unsplash.com/photo-1534528741775-53994a69daeb
+  https://images.unsplash.com/photo-1506794778202-cad84cf45f1d
+  https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d
+  https://images.unsplash.com/photo-1438761681033-6461ffad8d80
+  https://images.unsplash.com/photo-1500648767791-00dcc994a43e
+
+Patterns
+- Transparent Textures (CC BY 3.0)
+  https://www.transparenttextures.com

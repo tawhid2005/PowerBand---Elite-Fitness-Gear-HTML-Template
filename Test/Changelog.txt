@@ -1,0 +1,7 @@
+Changelog
+
+v1.0.1
+- Added about page and updated documentation
+
+v1.0.0
+- Initial release
