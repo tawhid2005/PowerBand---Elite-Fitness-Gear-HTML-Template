@@ -1,0 +1,7 @@
+License
+
+This template is provided under the Envato Market license for HTML templates.
+For full license terms, see:
+https://themeforest.net/licenses/standard
+
+Third-party assets are licensed separately. See Credits.txt for details.

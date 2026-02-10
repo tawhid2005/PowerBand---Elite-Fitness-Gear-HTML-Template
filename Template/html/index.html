@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PowerBand | Elite Fitness Gear" />
+    <title>PowerBand | Elite Fitness Gear</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="../assets/vendor/tailwindcss/tailwindcss.js" defer></script>
+  </head>
+  <body class="bg-[#0B0B0B] text-slate-50 antialiased selection:bg-[#00FF00] selection:text-black">
+    <a class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-full focus:bg-[#00FF00] focus:px-4 focus:py-2 focus:text-black" href="#main">
+      Skip to content
+    </a>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 top-0 start-0 border-b border-white/5 bg-[#0B0B0B]/80 backdrop-blur-md">
+      <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between px-6 py-4">
+        <a href="index.html" class="flex items-center space-x-2 group">
+          <div class="bg-[#00FF00] p-1.5 rounded-lg group-hover:bg-[#00FF00]/90 transition-colors flex items-center justify-center">
+            <svg class="icon w-6 h-6 text-black" aria-hidden="true">
+              <use href="../assets/img/icons.svg#icon-dumbbell"></use>
+            </svg>
+          </div>
+          <span class="self-center text-xl font-medium tracking-tight whitespace-nowrap text-white">PowerBand</span>
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <a href="#products" class="text-black bg-[#00FF00] hover:bg-[#00FF00]/90 focus:ring-4 focus:outline-none focus:ring-[#00FF00]/30 font-medium rounded-full text-base px-6 py-2.5 text-center transition-all shadow-[0_0_15px_rgba(0,255,0,0.4)] hover:shadow-[0_0_25px_rgba(0,255,0,0.6)]">
+            Shop Now
+          </a>
+          <button data-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-slate-400 rounded-lg md:hidden hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-slate-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="icon w-6 h-6" aria-hidden="true">
+              <use href="../assets/img/icons.svg#icon-hamburger"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-white/5 rounded-lg bg-[#121212] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
+            <li><a href="index.html" class="block py-2 px-3 text-white rounded md:bg-transparent md:text-[#00FF00] md:p-0" aria-current="page">Home</a></li>
+            <li><a href="about.html" class="block py-2 px-3 text-slate-400 rounded hover:bg-white/5 md:hover:bg-transparent md:hover:text-white md:p-0 transition-colors">About</a></li>
+            <li><a href="#products" class="block py-2 px-3 text-slate-400 rounded hover:bg-white/5 md:hover:bg-transparent md:hover:text-white md:p-0 transition-colors">Products</a></li>
+            <li><a href="#features" class="block py-2 px-3 text-slate-400 rounded hover:bg-white/5 md:hover:bg-transparent md:hover:text-white md:p-0 transition-colors">Features</a></li>
+            <li><a href="#reviews" class="block py-2 px-3 text-slate-400 rounded hover:bg-white/5 md:hover:bg-transparent md:hover:text-white md:p-0 transition-colors">Reviews</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main">
+      <!-- Hero Section -->
+      <section class="lg:pt-48 lg:pb-32 overflow-hidden pt-32 pb-20 relative">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-[#00FF00]/10 blur-[120px] rounded-full -z-10 opacity-30"></div>
+
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+          <div class="fade-in-up">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/5 text-[#00FF00] text-sm font-medium mb-6">
+              <span class="relative flex h-2 w-2">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00FF00] opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-[#00FF00]"></span>
+              </span>
+              New Collection Available
+            </div>
+            <h1 class="text-5xl lg:text-7xl font-medium tracking-tight text-white mb-6 leading-[1.1]">
+              Forged for
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00FF00] to-emerald-200">Intensity.</span><br />
+              Built for Growth.
+            </h1>
+            <p class="text-lg lg:text-xl text-slate-400 mb-8 max-w-lg leading-relaxed">
+              Elevate your training with premium resistance bands and ergonomic lifting gear. Designed for durability, styled
+              for the modern athlete.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 mb-10">
+              <a href="#products" class="inline-flex justify-center items-center py-3.5 px-8 text-base font-medium text-black rounded-full bg-[#00FF00] hover:bg-[#00FF00]/90 focus:ring-4 focus:ring-[#00FF00]/30 transition-all shadow-lg shadow-[#00FF00]/20">
+                Shop Equipment
+                <svg class="icon w-5 h-5 ml-2" aria-hidden="true">
+                  <use href="../assets/img/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </a>
+              <a href="#features" class="inline-flex justify-center items-center py-3.5 px-8 text-base font-medium text-white rounded-full border border-slate-700 hover:bg-white/5 focus:ring-4 focus:ring-slate-700 transition-all">
+                <svg class="icon w-5 h-5 mr-2 text-[#00FF00]" aria-hidden="true">
+                  <use href="../assets/img/icons.svg#icon-play-circle"></use>
+                </svg>
+                Watch Video
+              </a>
+            </div>
+
+            <div class="flex items-center gap-4 text-sm font-medium text-slate-300">
+              <div class="flex -space-x-3">
+                <img class="w-10 h-10 border-2 border-[#0B0B0B] rounded-full object-cover" src="../assets/img/avatar-1.jpg" alt="Athlete avatar" loading="lazy" />
+                <img class="w-10 h-10 border-2 border-[#0B0B0B] rounded-full object-cover" src="../assets/img/avatar-2.jpg" alt="Athlete avatar" loading="lazy" />
+                <img class="w-10 h-10 border-2 border-[#0B0B0B] rounded-full object-cover" src="../assets/img/avatar-3.jpg" alt="Athlete avatar" loading="lazy" />
+                <div class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-slate-800 border-2 border-[#0B0B0B] rounded-full hover:bg-slate-700">
+                  +2k
+                </div>
+              </div>
+              <div>
+                <div class="flex text-yellow-500 mb-0.5">
+                  <svg class="icon w-3.5 h-3.5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-3.5 h-3.5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-3.5 h-3.5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-3.5 h-3.5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-3.5 h-3.5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                </div>
+                <p class="text-slate-500 text-xs">Trusted by 2,000+ Athletes</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative flex items-center justify-center lg:justify-end fade-in-up">
+            <div class="relative z-10 w-full h-full rounded-2xl shadow-2xl overflow-hidden">
+              <img src="../assets/img/hero.jpg" alt="Athlete using PowerBand gear" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500" />
+              <div class="absolute bottom-6 left-6 right-6 bg-[#0B0B0B]/80 backdrop-blur-md p-4 rounded-xl border border-white/10 flex items-center justify-between">
+                <div>
+                  <p class="text-slate-400 text-xs mb-1">Current Session</p>
+                  <p class="text-white font-medium">Upper Body Power</p>
+                </div>
+                <div class="h-10 w-10 rounded-full bg-[#00FF00] flex items-center justify-center text-black">
+                  <svg class="icon w-5 h-5" aria-hidden="true">
+                    <use href="../assets/img/icons.svg#icon-heart-pulse"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="absolute -top-12 -right-12 w-24 h-24 bg-[#00FF00] rounded-full blur-[60px] opacity-30"></div>
+            <div class="absolute bottom-12 -left-12 w-32 h-32 bg-purple-500 rounded-full blur-[80px] opacity-20"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Logo Cloud -->
+      <section class="border-y border-white/5 bg-[#0B0B0B] py-10">
+        <div class="max-w-7xl mx-auto px-6">
+          <p class="text-center text-sm font-medium text-slate-500 mb-8 tracking-widest">POWERING ELITE PERFORMANCE ACROSS THE GLOBE</p>
+          <div class="flex flex-wrap justify-center gap-12 lg:gap-20 opacity-40 grayscale">
+            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+              <svg class="icon w-5 h-5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-bolt"></use></svg> IRONCLAD
+            </h3>
+            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+              <svg class="icon w-5 h-5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-mountains"></use></svg> APEX
+            </h3>
+            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+              <svg class="icon w-5 h-5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-record-circle"></use></svg> VELOCITY
+            </h3>
+            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+              <svg class="icon w-5 h-5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-box"></use></svg> TITAN
+            </h3>
+            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+              <svg class="icon w-5 h-5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-medal-star"></use></svg> CORE
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="py-24 bg-[#0B0B0B] relative">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-white mb-6">Engineered for Human Potential</h2>
+            <p class="text-lg text-slate-400">We don't just make gym gear. We craft tools that adapt to your body and withstand your toughest sessions.</p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="group p-8 rounded-3xl bg-gradient-to-b from-[#121212] to-[#0B0B0B] border border-white/5 hover:border-[#00FF00]/30 transition-all duration-300">
+              <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 text-[#00FF00] group-hover:scale-110 transition-transform">
+                <svg class="icon w-6 h-6" aria-hidden="true"><use href="../assets/img/icons.svg#icon-shield-check"></use></svg>
+              </div>
+              <h3 class="text-xl font-medium text-white mb-3">Military-Grade Durability</h3>
+              <p class="text-slate-400 leading-relaxed">
+                Constructed from premium reinforced latex and double-stitched fabrics designed to endure high-tension workouts without snapping.
+              </p>
+            </div>
+
+            <div class="group p-8 rounded-3xl bg-gradient-to-b from-[#121212] to-[#0B0B0B] border border-white/5 hover:border-[#00FF00]/30 transition-all duration-300">
+              <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 text-[#00FF00] group-hover:scale-110 transition-transform">
+                <svg class="icon w-6 h-6" aria-hidden="true"><use href="../assets/img/icons.svg#icon-hand-shake"></use></svg>
+              </div>
+              <h3 class="text-xl font-medium text-white mb-3">Ergonomic Precision</h3>
+              <p class="text-slate-400 leading-relaxed">
+                Gloves and bands that map to your anatomy. Maximize grip strength and comfort while reducing strain on your joints.
+              </p>
+            </div>
+
+            <div class="group p-8 rounded-3xl bg-gradient-to-b from-[#121212] to-[#0B0B0B] border border-white/5 hover:border-[#00FF00]/30 transition-all duration-300">
+              <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-6 text-[#00FF00] group-hover:scale-110 transition-transform">
+                <svg class="icon w-6 h-6" aria-hidden="true"><use href="../assets/img/icons.svg#icon-map-point"></use></svg>
+              </div>
+              <h3 class="text-xl font-medium text-white mb-3">Anywhere, Anytime</h3>
+              <p class="text-slate-400 leading-relaxed">
+                From the living room to the outdoor track. Lightweight, portable gear that transforms any environment into a world-class gym.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Visual Showcase / Bento Grid -->
+      <section id="products" class="py-24 bg-[#0B0B0B]">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+            <div class="max-w-xl">
+              <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-white mb-4">The Collection</h2>
+              <p class="text-lg text-slate-400">Minimalist design, maximum output. Choose your weapon.</p>
+            </div>
+            <a href="#products" class="text-[#00FF00] hover:text-[#00FF00]/80 font-medium flex items-center gap-2 group">
+              View Full Catalog
+              <svg class="icon w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true">
+                <use href="../assets/img/icons.svg#icon-arrow-right"></use>
+              </svg>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-6 grid-rows-2 gap-6 h-auto md:h-[600px]">
+            <div class="md:col-span-4 md:row-span-2 relative group overflow-hidden rounded-3xl border border-white/5 bg-[#121212]">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0B0B0B] via-transparent to-transparent z-10 opacity-80"></div>
+              <img src="../assets/img/product-bands.jpg" alt="Resistance bands set" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <div class="absolute bottom-0 left-0 p-8 z-20">
+                <span class="px-3 py-1 rounded-full bg-[#00FF00]/20 text-[#00FF00] text-xs font-medium border border-[#00FF00]/20 backdrop-blur-sm mb-3 inline-block">Best Seller</span>
+                <h3 class="text-3xl font-medium text-white mb-2">Pro Resistance Series</h3>
+                <p class="text-slate-300 mb-6 max-w-sm">Variable resistance from 10lbs to 150lbs. The ultimate tool for hypertrophy and mobility.</p>
+                <button class="bg-white text-[#0B0B0B] px-6 py-2 rounded-full font-medium text-sm hover:bg-slate-200 transition-colors">Shop Bands</button>
+              </div>
+            </div>
+
+            <div class="md:col-span-2 md:row-span-1 relative group overflow-hidden rounded-3xl border border-white/5 bg-[#121212]">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0B0B0B]/90 to-transparent z-10"></div>
+              <img src="../assets/img/product-gloves.jpg" alt="Gym gloves" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <div class="absolute bottom-0 left-0 p-6 z-20">
+                <h3 class="text-xl font-medium text-white mb-1">Tactical Grip Gloves</h3>
+                <p class="text-slate-400 text-sm">Ventilated palm protection.</p>
+              </div>
+            </div>
+
+            <div class="md:col-span-2 md:row-span-1 relative group overflow-hidden rounded-3xl border border-white/5 bg-[#121212]">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0B0B0B]/90 to-transparent z-10"></div>
+              <img src="../assets/img/product-apparel.jpg" alt="Performance apparel" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+              <div class="absolute bottom-0 left-0 p-6 z-20">
+                <h3 class="text-xl font-medium text-white mb-1">Performance Apparel</h3>
+                <p class="text-slate-400 text-sm">Sweat-wicking fabrics.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Social Proof -->
+      <section id="reviews" class="py-24 bg-[#0B0B0B] relative overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#00FF00]/5 blur-[100px] rounded-full -z-10"></div>
+        <div class="max-w-7xl mx-auto px-6">
+          <h2 class="text-3xl md:text-4xl font-medium tracking-tight text-white text-center mb-16">Community Feedback</h2>
+
+          <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-[#121212]/60 backdrop-blur-sm border border-white/5 p-8 rounded-2xl flex flex-col justify-between">
+              <div>
+                <div class="flex text-[#00FF00] mb-4 gap-1">
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                </div>
+                <p class="text-slate-300 text-lg leading-relaxed mb-6">"I've gone through dozen of resistance bands that snapped within weeks. PowerBand is different. The quality is immediately obvious when you touch them."</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="h-10 w-10 rounded-full bg-slate-700 flex items-center justify-center text-white font-medium">JD</div>
+                <div>
+                  <p class="text-white font-medium text-sm">James D.</p>
+                  <p class="text-slate-500 text-xs">Crossfit Athlete</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-[#121212]/60 backdrop-blur-sm border border-white/5 p-8 rounded-2xl flex flex-col justify-between">
+              <div>
+                <div class="flex text-[#00FF00] mb-4 gap-1">
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                </div>
+                <p class="text-slate-300 text-lg leading-relaxed mb-6">"The ergonomic design of the gloves actually helped my wrist pain. I can lift heavier without worrying about grip failure. Highly recommended."</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="../assets/img/avatar-4.jpg" alt="Sarah L." class="h-10 w-10 rounded-full object-cover" loading="lazy" />
+                <div>
+                  <p class="text-white font-medium text-sm">Sarah L.</p>
+                  <p class="text-slate-500 text-xs">Personal Trainer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-[#121212]/60 backdrop-blur-sm border border-white/5 p-8 rounded-2xl flex flex-col justify-between">
+              <div>
+                <div class="flex text-[#00FF00] mb-4 gap-1">
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                  <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-star"></use></svg>
+                </div>
+                <p class="text-slate-300 text-lg leading-relaxed mb-6">"Fast shipping, incredible packaging, and the product itself is sleek. It looks good and performs even better. A rare find in fitness gear."</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="../assets/img/avatar-5.jpg" alt="Marcus T." class="h-10 w-10 rounded-full object-cover" loading="lazy" />
+                <div>
+                  <p class="text-white font-medium text-sm">Marcus T.</p>
+                  <p class="text-slate-500 text-xs">Home Gym Owner</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="py-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[#0B0B0B]"></div>
+        <div class="absolute inset-0 bg-[url('../assets/img/patterns/cubes.png')] opacity-5"></div>
+
+        <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
+          <h2 class="text-4xl md:text-6xl font-medium tracking-tight text-white mb-6">Ready to Level Up?</h2>
+          <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
+            Join thousands of athletes transforming their potential with PowerBand. Durable, stylish, and built for you.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="#products" class="w-full sm:w-auto px-8 py-4 bg-[#00FF00] text-black font-semibold text-lg rounded-full hover:bg-[#00FF00]/90 transition-all shadow-[0_0_20px_rgba(0,255,0,0.4)] hover:shadow-[0_0_30px_rgba(0,255,0,0.6)] transform hover:-translate-y-1">
+              Get Your Gear Now
+            </a>
+            <p class="text-slate-500 text-sm mt-4 sm:mt-0 sm:ml-4 flex items-center gap-2">
+              <svg class="icon w-5 h-5 text-[#00FF00]" aria-hidden="true"><use href="../assets/img/icons.svg#icon-check-circle"></use></svg>
+              30-Day Money Back Guarantee
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#0B0B0B] border-t border-white/5 pt-16 pb-8">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          <div class="col-span-1 md:col-span-1">
+            <a href="index.html" class="flex items-center space-x-2 mb-6">
+              <div class="bg-[#00FF00] p-1 rounded group-hover:bg-[#00FF00]/90">
+                <svg class="icon w-5 h-5 text-black" aria-hidden="true"><use href="../assets/img/icons.svg#icon-dumbbell"></use></svg>
+              </div>
+              <span class="self-center text-lg font-medium whitespace-nowrap text-white">PowerBand</span>
+            </a>
+            <p class="text-slate-500 text-sm leading-relaxed mb-6">
+              Premium fitness equipment designed for the modern athlete. Strength, style, and substance.
+            </p>
+            <div class="flex space-x-4">
+              <a href="https://www.instagram.com/" class="text-slate-400 hover:text-white transition-colors" aria-label="Instagram" rel="noopener" target="_blank">
+                <svg class="icon w-5 h-5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-instagram"></use></svg>
+              </a>
+              <a href="https://x.com/" class="text-slate-400 hover:text-white transition-colors" aria-label="X" rel="noopener" target="_blank">
+                <svg class="icon w-5 h-5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-twitter-x"></use></svg>
+              </a>
+              <a href="https://www.facebook.com/" class="text-slate-400 hover:text-white transition-colors" aria-label="Facebook" rel="noopener" target="_blank">
+                <svg class="icon w-5 h-5" aria-hidden="true"><use href="../assets/img/icons.svg#icon-facebook"></use></svg>
+              </a>
+            </div>
+          </div>
+
+          <div id="shop">
+            <h4 class="text-white font-medium mb-4">Shop</h4>
+            <ul class="space-y-3 text-sm text-slate-400">
+              <li><a href="#products" class="hover:text-[#00FF00] transition-colors">Resistance Bands</a></li>
+              <li><a href="#products" class="hover:text-[#00FF00] transition-colors">Lifting Gloves</a></li>
+              <li><a href="#products" class="hover:text-[#00FF00] transition-colors">Apparel</a></li>
+              <li><a href="#products" class="hover:text-[#00FF00] transition-colors">Accessories</a></li>
+            </ul>
+          </div>
+
+          <div id="support">
+            <h4 class="text-white font-medium mb-4">Support</h4>
+            <ul class="space-y-3 text-sm text-slate-400">
+              <li><a href="#support" class="hover:text-[#00FF00] transition-colors">Track Order</a></li>
+              <li><a href="#support" class="hover:text-[#00FF00] transition-colors">Returns &amp; Exchanges</a></li>
+              <li><a href="#support" class="hover:text-[#00FF00] transition-colors">Warranty</a></li>
+              <li><a href="#support" class="hover:text-[#00FF00] transition-colors">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div id="newsletter">
+            <h4 class="text-white font-medium mb-4">Stay in the Loop</h4>
+            <p class="text-slate-500 text-sm mb-4">Subscribe for workout tips and exclusive drops.</p>
+            <form id="newsletter-form" class="flex gap-2" novalidate>
+              <label class="sr-only" for="newsletter-email">Email address</label>
+              <input id="newsletter-email" name="email" type="email" placeholder="Email address" class="bg-white/5 border border-white/10 text-white text-sm rounded-lg focus:ring-[#00FF00] focus:border-[#00FF00] block w-full p-2.5 placeholder-slate-600 outline-none" required />
+              <button type="submit" class="bg-[#00FF00] hover:bg-[#00FF00]/90 text-black font-medium rounded-lg text-sm px-4 py-2 transition-colors" aria-label="Submit email">
+                <svg class="icon w-4 h-4" aria-hidden="true"><use href="../assets/img/icons.svg#icon-arrow-right"></use></svg>
+              </button>
+            </form>
+            <p id="newsletter-message" class="form-message" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+
+        <div id="footer" class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p class="text-sm text-slate-600">© 2023 PowerBand Inc. All rights reserved.</p>
+          <div class="flex gap-6 text-sm text-slate-600">
+            <a href="#footer" class="hover:text-slate-400">Privacy Policy</a>
+            <a href="#footer" class="hover:text-slate-400">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/main.js" defer></script>
+  </body>
+</html>
